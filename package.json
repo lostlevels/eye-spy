@@ -1,0 +1,25 @@
+{
+  "name": "eye-spy",
+  "version": "0.0.1",
+  "description": "A file watching utility.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tmathews/eye-spy"
+  },
+  "keywords": [
+    "file",
+    "observer",
+    "spy",
+    "watcher"
+  ],
+  "author": "Thomas Mathews",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmathews/eye-spy/issues"
+  },
+  "homepage": "https://github.com/tmathews/eye-spy"
+}
