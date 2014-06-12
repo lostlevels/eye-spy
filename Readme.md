@@ -1,5 +1,5 @@
 
-# Eye Spy (with my little eye)
+# I spy with my little eye.
 
 A simple class that will watch files and directories.
 
@@ -9,6 +9,7 @@ I wrote this because I wanted to be able to do anything when a file changed that
 
 ```
 var Spy = require("eye-spy");
+var spawn = require('child_process').spawn;
 
 var server;
 var builder;
