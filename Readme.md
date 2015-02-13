@@ -7,10 +7,10 @@ The use case for this tool was to compile my project when ever I saved files or 
 ## Example
 
 ```
-var es = require("eye-spy");
+var spy = require("eye-spy");
 
 // Watch all js files and log it out.
-es.add(/^.*\.js$/, function (path, done) {
+spy(".", /^.*\.js$/, function (path, done) {
   console.log("changed:", path);
   done();
 });
