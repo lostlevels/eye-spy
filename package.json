@@ -1,6 +1,6 @@
 {
   "name": "eye-spy",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A file watching utility.",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/tmathews/eye-spy",
   "dependencies": {
-    "chokidar": "^1.3.0"
+    "chokidar": "^1.0.1"
   }
 }
